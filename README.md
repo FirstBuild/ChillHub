@@ -1,6 +1,6 @@
 # ChillHub
 
-Welcome to the ChillHub getting started page. If you just purchased a ChillHub and are interested in getting it on your network and using any accessories you purchased then see [Start Here](#starthere). If you are ready to dive in and start creating new accessories see  [Developer Start Here](#developerstarthere).
+Welcome to the ChillHub getting started page. If you just purchased a ChillHub and are interested in getting it on your network and using any accessories you purchased then see [Start Here](#starthere). If you are ready to dive in and start creating new accessories see  [Developer Start Here](#developerstarthere). Contributions are highly encouraged. ChillHub is designed to be a platform for creating new accessories. 
 
 ## Start Here <a id="starthere"></a>
 
@@ -31,3 +31,20 @@ In order to use ChillHub and its accesories you need to add it to your home wifi
 
 
 ## Developer Start Here <a id="developerstarthere"></a>
+
+ChillHub is designed to be a developer platform for adding new devices! As such, every aspect of ChillHub is open source. This getting started document will walk you through the essentials.
+
+**Architecture**
+
+ChillHub consists of the following open components:
+
++ ChillHub Computer
+  - Runs the linux operating system, the root password is the same as the WiFi password that is printed on the attached label.
+  - Contains the core firmware for devices communicating to ChillHub and the Firebase cloud. [Firmware] (https://github.com/FirstBuild/chillhub-firmware)
+  - Contains the wifi commissioning daemon [Commissioning] (https://github.com/FirstBuild/chillhub-commissioning)
+  - Configuration information is stored in chillhub.json
++ Firebase
+  - ChillHub communicates with a Firebase cloud for relaying information between devices and the cloud [Firebase](http://firebase.com)
+  - Any Firebase instance can be used and can be changed from the default FirstBuild instance 
+
+  
