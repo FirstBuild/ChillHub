@@ -17,7 +17,7 @@ After your refrigerator is unboxed, there are a few things you need to do.
 
 In order to use ChillHub and its accesories you need to add it to your home wifi network.
 
-_**note** The FirstBuild iPhone app has been submitted to Apple and will be released pending their review. Please see alternative method [below](#connectingchillhubalternative) until the app is available. _
+**note:** _The FirstBuild iPhone app has been submitted to Apple and will be released pending their review. Please see alternative method [below](#connectingchillhubalternative) until the app is available._
 
 1. ChillHub is shipped in an "off" state. Press and release the black button on the ChillHub computer to turn on ChillHub's wifi radio.
 2. Download the FirstBuild iPhone app from the Apple app store.
