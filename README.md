@@ -64,9 +64,10 @@ ChillHub consists of the following open components:
 
 ## Security <a id="noteaboutsecurity"></a>
 
-ChillHub is designed to be a developer platform and emphasis has been put on ease of developing new components. Basic safeguards have been put in place. 
+ChillHub is designed to be a developer platform and emphasis has been put on ease of developing new components. Basic safeguards have been put in place. Notes:
 
-+ Communication to the Firebase cloud is encrypted with SSL. 
++ Communication to the Firebase cloud is encrypted with SSL
++ After logging in to Firebase the first time an authorization token from firebase is passed to the ChillHub via the mobile app. This token is good for 2 years. The token is only passed during the commissioning phase when 
 + Device communications internally on the USB bus are not encrypted
 + ChillHub will only connect to WPA/WPA2 wifi access points
 + The linux operating system installed on ChillHub has not been "hardened" in order to enable the easy development. Developers are encouraged to secure their device in the way they prefer. Please see this great guide on raspberry pi [hardening] (http://automationguy.co.uk/home-lab/home-lab-build-part-13-raspberry-pi-hardening/)
