@@ -5,6 +5,7 @@ Welcome to the ChillHub getting started page. If you just purchased a ChillHub a
 ## Start Here <a id="starthere"></a>
 
 **ChillHub Unboxing**
+
 After your refrigerator is unboxed, there are a few things you need to do. 
 
 1. Place the ChillHub computer either on the top or back of your refrigerator. Double sided tape has been provided and will securely fasten the computer to the refrigerator. 
@@ -16,8 +17,17 @@ After your refrigerator is unboxed, there are a few things you need to do.
 
 In order to use ChillHub and its accesories you need to add it to your home wifi network.
 
-1. ChillHub is shipped in an "off" state. Press and release the black button on the ChillHub computer to turn on ChillHub's wifi radio. 
-2. Open the FirstBuild iPhone app. After signing in, click on the menu in the upper right corner and click "Add New Product". 
-3. Follow the instructions for connecting the ChillHub to your home wifi.
+__**note** The FirstBuild iPhone app has been submitted to Apple and will be released pending their review. Please see alternative method [below](#connectingchillhubalternative) until the app is available. __
+
+1. ChillHub is shipped in an "off" state. Press and release the black button on the ChillHub computer to turn on ChillHub's wifi radio.
+2. Download the FirstBuild iPhone app from the Apple app store.
+3. Open the FirstBuild iPhone app. After signing in, click on the menu in the upper right corner and click "Add New Product". 
+4. Follow the instructions for connecting the ChillHub to your home wifi.
+
+**Alternative Connecting ChillHub <a id="connectingchillhubalternative"></a>**
+
+1. ChillHub is shipped in an "off" state. Press and release the black button on the ChillHub computer to turn on ChillHub's wifi radio.
+2. Follow the instructions for the ChillHub Commissioning process. [Manual Commissioning Process](https://github.com/FirstBuild/chillhub-commissioning)
+
 
 ## Developer Start Here <a id="developerstarthere"></a>
