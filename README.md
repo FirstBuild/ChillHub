@@ -43,9 +43,11 @@ ChillHub consists of the following open components:
   - Contains the core [firmware] (https://github.com/FirstBuild/chillhub-firmware) for devices communicating to ChillHub and the Firebase cloud
   - Contains the wifi [commissioning] (https://github.com/FirstBuild/chillhub-commissioning) daemon 
   - Configuration information is stored in chillhub.json
+
 + Cloud
   - ChillHub communicates with a [Firebase](http://firebase.com) cloud for relaying information between devices and the cloud 
   - Any Firebase instance can be used and can be changed from the default FirstBuild instance 
+
 + FirstBuild Mobile app
   - A [framework](https://github.com/FirstBuild/FirstBuild-Mobile) for adding new screens for devices that you create
   - A wifi commissioning storyboard to connect ChillHub to a users home network
@@ -53,3 +55,7 @@ ChillHub consists of the following open components:
   - An authentication storyboard for logging in via Google+ or Facebook
   - A ChillHub storyboard with a MilkyWeigh accessory screen
   
++ Devices
+  - ChillHub uses a protocol as outlined above in ChillHub computer to communicate with devices over USB. 
+  - The [MilkyWeigh](https://github.com/FirstBuild/ChillHubMilkScaleCypress) device is a fully working example using a [Cypress board](http://www.cypress.com/?rID=92146)
+  - Arduino Uno or any other USB Serial cable device can be used
