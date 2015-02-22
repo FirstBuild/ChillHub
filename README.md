@@ -2,6 +2,8 @@
 
 Welcome to the ChillHub getting started page. If you just purchased a ChillHub and are interested in getting it on your network and using any accessories you purchased then see [Start Here](#starthere). If you are ready to dive in and start creating new accessories see  [Developer Start Here](#developerstarthere). Contributions are highly encouraged. ChillHub is designed to be a platform for creating new accessories. 
 
+A [note](#noteaboutsecurity) about security.
+
 ## Start Here <a id="starthere"></a>
 
 **ChillHub Unboxing**
@@ -59,3 +61,13 @@ ChillHub consists of the following open components:
   - ChillHub uses a protocol as outlined above in ChillHub computer to communicate with devices over USB. 
   - The [MilkyWeigh](https://github.com/FirstBuild/ChillHubMilkScaleCypress) device is a fully working example using a [Cypress board](http://www.cypress.com/?rID=92146)
   - Arduino Uno or any other USB Serial cable device can be used
+
+## Security <a id="noteaboutsecurity"></a>
+
+ChillHub is designed to be a developer platform and emphasis has been put on ease of developing new components. Basic safeguards have been put in place. 
+
++ Communication to the Firebase cloud is encrypted with SSL. 
++ Device communications internally on the USB bus are not encrypted
++ ChillHub will only connect to WPA/WPA2 wifi access points
++ The linux operating system installed on ChillHub has not been "hardened" in order to enable the easy development. Developers are encouraged to secure their device in the way they prefer. Please see this great guide on raspberry pi [hardening] (http://automationguy.co.uk/home-lab/home-lab-build-part-13-raspberry-pi-hardening/)
+
