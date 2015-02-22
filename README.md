@@ -40,11 +40,16 @@ ChillHub consists of the following open components:
 
 + ChillHub Computer
   - Runs the linux operating system, the root password is the same as the WiFi password that is printed on the attached label.
-  - Contains the core firmware for devices communicating to ChillHub and the Firebase cloud. [Firmware] (https://github.com/FirstBuild/chillhub-firmware)
-  - Contains the wifi commissioning daemon [Commissioning] (https://github.com/FirstBuild/chillhub-commissioning)
+  - Contains the core [firmware] (https://github.com/FirstBuild/chillhub-firmware) for devices communicating to ChillHub and the Firebase cloud
+  - Contains the wifi [commissioning] (https://github.com/FirstBuild/chillhub-commissioning) daemon 
   - Configuration information is stored in chillhub.json
-+ Firebase
-  - ChillHub communicates with a Firebase cloud for relaying information between devices and the cloud [Firebase](http://firebase.com)
++ Cloud
+  - ChillHub communicates with a [Firebase](http://firebase.com) cloud for relaying information between devices and the cloud 
   - Any Firebase instance can be used and can be changed from the default FirstBuild instance 
-
++ FirstBuild Mobile app
+  - A [framework](https://github.com/FirstBuild/FirstBuild-Mobile) for adding new screens for devices that you create
+  - A wifi commissioning storyboard to connect ChillHub to a users home network
+  - A main storyboard that utilizes RBStoryboard link for adding new storyboards
+  - An authentication storyboard for logging in via Google+ or Facebook
+  - A ChillHub storyboard with a MilkyWeigh accessory screen
   
